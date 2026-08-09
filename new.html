@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gaurav Kumar — AI Researcher | NLP · Knowledge Graphs · Generative AI</title>
+<meta name="description" content="Gaurav Kumar is a Junior Research Fellow at the AI Centre for Research, Swami Rama Himalayan University. Research spanning NLP, Knowledge Graphs, Generative AI, Computer Vision and AI for Indian Knowledge Systems. SemEval-2026 3rd/47 international teams.">
+<meta name="theme-color" content="#FAFAF9">
+
+<!-- Open Graph -->
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Gaurav Kumar — AI Researcher">
+<meta property="og:description" content="Junior Research Fellow · NLP · Knowledge Graphs · Generative AI · Indian Knowledge Systems. Ranked 3rd/47 international teams at SemEval-2026, ACL.">
+<meta property="og:site_name" content="Gaurav Kumar — Academic Portfolio">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Gaurav Kumar — AI Researcher">
+<meta name="twitter:description" content="NLP · Knowledge Graphs · Generative AI · Indian Knowledge Systems. SemEval-2026 3rd/47 international teams, ACL 2026.">
+
+<link rel="canonical" href="https://gauravkumar.dev/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23FAFAF9' stroke='%232F4C86' stroke-width='6'/%3E%3Ccircle cx='34' cy='38' r='7' fill='%232F4C86'/%3E%3Ccircle cx='68' cy='34' r='7' fill='%232F4C86'/%3E%3Ccircle cx='58' cy='68' r='7' fill='%232F4C86'/%3E%3Cline x1='34' y1='38' x2='68' y2='34' stroke='%232F4C86' stroke-width='4'/%3E%3Cline x1='34' y1='38' x2='58' y2='68' stroke='%232F4C86' stroke-width='4'/%3E%3Cline x1='68' y1='34' x2='58' y2='68' stroke='%232F4C86' stroke-width='4'/%3E%3C/svg%3E">
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Gaurav Kumar",
+  "jobTitle": "Junior Research Fellow",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "AI Centre for Research, Swami Rama Himalayan University"
+  },
+  "email": "mailto:gauravkumarsony08@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Dehradun",
+    "addressRegion": "Uttarakhand",
+    "addressCountry": "IN"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/gaurav-kumar17",
+    "https://github.com/Coding-with-Gaurav",
+    "https://scholar.google.com/citations?hl=en&authuser=2&user=ENW2IrQAAAAJ"
+  ],
+  "alumniOf": [
+    {"@type": "CollegeOrUniversity", "name": "Dev Sanskriti Vishwavidyalaya"},
+    {"@type": "CollegeOrUniversity", "name": "Patliputra University"}
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================================
+   DESIGN TOKENS
+   ============================================================ */
+:root{
+  /* surfaces */
+  --bg:            #FAFAF9;
+  --surface:       #FFFFFF;
+  --surface-alt:   #F3F4F7;
+  --surface-sunken:#EEF0F4;
+
+  /* ink */
+  --ink:           #161A22;
+  --ink-2:         #454C58;
+  --ink-3:         #838B99;
+  --border:        #E2E4EA;
+  --border-strong: #CBD0DA;
+
+  /* accent — single soft blue, used deliberately */
+  --accent:        #2F4C86;
+  --accent-dark:   #203660;
+  --accent-soft:   #EBF0FA;
+  --accent-line:   #C6D3EC;
+
+  /* type */
+  --font-display: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  --font-body:    'Inter', sans-serif;
+  --font-mono:    'IBM Plex Mono', monospace;
+
+  /* scale (8px system) */
+  --s-1: 4px;  --s-2: 8px;  --s-3: 16px; --s-4: 24px;
+  --s-5: 32px; --s-6: 48px; --s-7: 64px; --s-8: 96px; --s-9: 128px;
+
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow-sm: 0 1px 2px rgba(22,26,34,.05);
+  --shadow-md: 0 8px 24px rgba(22,26,34,.07);
+  --shadow-lg: 0 20px 50px rgba(22,26,34,.10);
+
+  --ease: cubic-bezier(.2,.7,.3,1);
+  --dur: .5s;
+  --max: 1160px;
+}
+
+*,*::before,*::after{ box-sizing:border-box; margin:0; padding:0; }
+html{ scroll-behavior:smooth; }
+@media (prefers-reduced-motion: reduce){
+  html{ scroll-behavior:auto; }
+  *,*::before,*::after{ animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; scroll-behavior:auto !important; }
+}
+
+html, body{ overflow-x:hidden; width:100%; }
+body{
+  font-family:var(--font-body);
+  background:var(--bg);
+  color:var(--ink-2);
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  font-size:16px;
+}
+
+h1,h2,h3,h4{ font-family:var(--font-display); color:var(--ink); font-weight:700; letter-spacing:-.01em; line-height:1.2; }
+a{ color:inherit; text-decoration:none; }
+img{ max-width:100%; display:block; }
+ul{ list-style:none; }
+button{ font-family:inherit; cursor:pointer; }
+
+:focus-visible{ outline:2px solid var(--accent); outline-offset:3px; border-radius:4px; }
+
+.skip-link{
+  position:absolute; left:-9999px; top:0; z-index:1000;
+  background:var(--ink); color:#fff; padding:12px 20px; border-radius:0 0 8px 0;
+}
+.skip-link:focus{ left:0; }
+
+.wrap{ max-width:var(--max); margin:0 auto; padding:0 var(--s-5); }
+@media (max-width:640px){ .wrap{ padding:0 var(--s-4); } }
+
+section{ padding:var(--s-8) 0; }
+@media (max-width:768px){ section{ padding:var(--s-7) 0; } }
+
+.alt{ background:var(--surface-alt); border-top:1px solid var(--border); border-bottom:1px solid var(--border); }
+
+/* ---------- eyebrow / section head ---------- */
+.eyebrow{
+  display:inline-flex; align-items:center; gap:8px;
+  font-family:var(--font-mono); font-size:11.5px; font-weight:500;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--accent);
+  margin-bottom:var(--s-2);
+}
+.eyebrow::before{ content:''; width:16px; height:1px; background:var(--accent); }
+
+.section-head{ max-width:640px; margin-bottom:var(--s-6); }
+.section-head h2{ font-size:clamp(1.6rem,3vw,2.15rem); margin-bottom:var(--s-2); }
+.section-head p{ color:var(--ink-3); font-size:.98rem; }
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-flex; align-items:center; gap:8px;
+  font-family:var(--font-body); font-size:.87rem; font-weight:600;
+  padding:11px 20px; border-radius:8px; border:1px solid transparent;
+  transition:all .2s var(--ease); white-space:nowrap;
+}
+.btn--primary{ background:var(--ink); color:#fff; }
+.btn--primary:hover{ background:var(--accent-dark); transform:translateY(-1px); box-shadow:var(--shadow-md); }
+.btn--outline{ background:var(--surface); color:var(--ink); border-color:var(--border-strong); }
+.btn--outline:hover{ border-color:var(--accent); color:var(--accent); transform:translateY(-1px); }
+.btn--ghost{ color:var(--ink-2); padding:11px 14px; }
+.btn--ghost:hover{ color:var(--accent); }
+.btn svg{ width:14px; height:14px; flex-shrink:0; }
+
+/* ============================================================
+   NAV
+   ============================================================ */
+.nav{
+  position:sticky; top:0; z-index:200; height:68px;
+  background:rgba(250,250,249,.88); backdrop-filter:blur(14px) saturate(140%);
+  border-bottom:1px solid var(--border);
+}
+.nav__inner{ max-width:var(--max); margin:0 auto; padding:0 var(--s-5); height:100%; display:flex; align-items:center; justify-content:space-between; }
+.nav__brand{ display:flex; align-items:center; gap:10px; font-family:var(--font-display); font-weight:700; font-size:1rem; color:var(--ink); }
+.nav__mark{ width:26px; height:26px; flex-shrink:0; }
+.nav__links{ display:flex; align-items:center; gap:var(--s-5); }
+.nav__links a{
+  font-size:.83rem; font-weight:500; color:var(--ink-3); position:relative; padding:4px 0;
+  transition:color .2s;
+}
+.nav__links a::after{
+  content:''; position:absolute; left:0; right:0; bottom:-3px; height:2px; background:var(--accent);
+  transform:scaleX(0); transform-origin:left; transition:transform .25s var(--ease);
+}
+.nav__links a:hover{ color:var(--ink); }
+.nav__links a[aria-current="true"]{ color:var(--ink); }
+.nav__links a[aria-current="true"]::after{ transform:scaleX(1); }
+.nav__cta{ display:flex; align-items:center; gap:var(--s-3); }
+.nav__toggle{ display:none; background:none; border:1px solid var(--border-strong); border-radius:8px; width:38px; height:38px; align-items:center; justify-content:center; }
+.nav__toggle svg{ width:18px; height:18px; }
+
+@media (max-width:900px){
+  .nav__links{
+    position:fixed; inset:68px 0 0 0; background:var(--bg); flex-direction:column;
+    align-items:flex-start; padding:var(--s-5); gap:var(--s-4); transform:translateX(100%);
+    transition:transform .3s var(--ease); overflow-y:auto;
+  }
+  .nav__links.open{ transform:translateX(0); }
+  .nav__links a{ font-size:1.05rem; }
+  .nav__cta .btn--outline{ display:none; }
+  .nav__toggle{ display:flex; }
+}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero{ padding:var(--s-8) 0 var(--s-7); position:relative; overflow:hidden; }
+.hero__inner{ display:grid; grid-template-columns:1.05fr .95fr; gap:var(--s-8); align-items:center; }
+@media (max-width:980px){ .hero__inner{ grid-template-columns:1fr; gap:var(--s-6); } }
+
+.hero__badge{
+  display:inline-flex; align-items:center; gap:8px;
+  font-family:var(--font-mono); font-size:11.5px; font-weight:500; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--accent); background:var(--accent-soft);
+  border:1px solid var(--accent-line); padding:6px 12px; border-radius:100px; margin-bottom:var(--s-4);
+}
+.hero__badge .dot{ width:6px; height:6px; border-radius:50%; background:var(--accent); }
+
+.hero h1{ font-size:clamp(2.3rem,4.6vw,3.4rem); line-height:1.08; margin-bottom:var(--s-4); }
+.hero h1 .accent{ color:var(--accent); }
+
+.hero__lead{ font-size:1.08rem; color:var(--ink-2); max-width:560px; margin-bottom:var(--s-5); }
+
+.hero__tags{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:var(--s-5); }
+.tag{
+  font-family:var(--font-mono); font-size:.72rem; font-weight:500; color:var(--ink-2);
+  background:var(--surface); border:1px solid var(--border); padding:5px 11px; border-radius:6px;
+}
+
+.hero__meta{ display:flex; flex-wrap:wrap; gap:var(--s-4); margin-bottom:var(--s-5); font-size:.85rem; color:var(--ink-3); }
+.hero__meta span{ display:flex; align-items:center; gap:6px; }
+.hero__meta svg{ width:15px; height:15px; flex-shrink:0; }
+
+.hero__actions{ display:flex; flex-wrap:wrap; gap:10px; }
+
+/* signature: research graph visual */
+.hero__visual{ position:relative; aspect-ratio:1/1; max-width:460px; margin:0 auto; }
+.hero__visual svg{ width:100%; height:100%; overflow:visible; }
+.graph-node{ transform-origin:center; animation:pulse 3.6s ease-in-out infinite; }
+.graph-node:nth-of-type(2){ animation-delay:.4s; }
+.graph-node:nth-of-type(3){ animation-delay:.8s; }
+.graph-node:nth-of-type(4){ animation-delay:1.2s; }
+.graph-node:nth-of-type(5){ animation-delay:1.6s; }
+.graph-node:nth-of-type(6){ animation-delay:2s; }
+@keyframes pulse{ 0%,100%{ opacity:.85; } 50%{ opacity:1; transform:scale(1.06); } }
+.graph-edge{ stroke-dasharray:4 3000; animation:draw 2.4s var(--ease) forwards; }
+@keyframes draw{ to{ stroke-dashoffset:0; } }
+@media (prefers-reduced-motion: reduce){ .graph-node{ animation:none; } }
+
+/* ============================================================
+   STATS STRIP
+   ============================================================ */
+.stats{ border-top:1px solid var(--border); border-bottom:1px solid var(--border); background:var(--surface); }
+.stats__row{ display:grid; grid-template-columns:repeat(4,1fr); }
+.stat{ padding:var(--s-5) var(--s-4); text-align:left; border-right:1px solid var(--border); }
+.stat:last-child{ border-right:none; }
+.stat__num{ font-family:var(--font-display); font-weight:800; font-size:clamp(1.5rem,2.4vw,2.1rem); color:var(--ink); line-height:1; margin-bottom:6px; }
+.stat__num .accent{ color:var(--accent); }
+.stat__label{ font-family:var(--font-mono); font-size:.7rem; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-3); }
+@media (max-width:768px){
+  .stats__row{ grid-template-columns:repeat(2,1fr); }
+  .stat{ border-bottom:1px solid var(--border); }
+  .stat:nth-child(2){ border-right:none; }
+  .stat:nth-child(3),.stat:nth-child(4){ border-bottom:none; }
+}
+@media (max-width:480px){
+  .stats__row{ grid-template-columns:1fr; }
+  .stat{ border-right:none; }
+}
+
+/* ============================================================
+   ABOUT
+   ============================================================ */
+.about__grid{ display:grid; grid-template-columns:1.3fr .7fr; gap:var(--s-7); align-items:start; }
+@media (max-width:900px){ .about__grid{ grid-template-columns:1fr; gap:var(--s-6); } }
+.about__text p{ font-size:1.02rem; color:var(--ink-2); margin-bottom:var(--s-4); }
+.about__text p:last-child{ margin-bottom:0; }
+.about__panel{ background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:var(--s-5); }
+.about__panel + .about__panel{ margin-top:var(--s-4); }
+.about__panel h4{ font-size:.72rem; letter-spacing:.1em; text-transform:uppercase; color:var(--accent); font-family:var(--font-mono); font-weight:500; margin-bottom:var(--s-3); }
+.info-row{ display:flex; gap:var(--s-3); font-size:.87rem; padding:7px 0; border-bottom:1px solid var(--border); }
+.info-row:last-child{ border-bottom:none; }
+.info-row dt{ color:var(--ink-3); min-width:78px; flex-shrink:0; }
+.info-row dd{ color:var(--ink); font-weight:500; word-break:break-word; }
+.info-row a:hover{ color:var(--accent); }
+
+/* ============================================================
+   RESEARCH INTERESTS
+   ============================================================ */
+.grid-3{ display:grid; grid-template-columns:repeat(3,1fr); gap:var(--s-4); }
+.grid-2{ display:grid; grid-template-columns:repeat(2,1fr); gap:var(--s-4); }
+@media (max-width:900px){ .grid-3{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width:640px){ .grid-3, .grid-2{ grid-template-columns:1fr; } }
+
+.interest-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
+  padding:var(--s-5); transition:border-color .2s, transform .2s, box-shadow .2s;
+}
+.interest-card:hover{ border-color:var(--accent-line); transform:translateY(-3px); box-shadow:var(--shadow-md); }
+.interest-card__icon{
+  width:40px; height:40px; border-radius:10px; background:var(--accent-soft);
+  display:flex; align-items:center; justify-content:center; margin-bottom:var(--s-4);
+}
+.interest-card__icon svg{ width:20px; height:20px; color:var(--accent); }
+.interest-card h3{ font-size:1.02rem; margin-bottom:8px; }
+.interest-card p{ font-size:.87rem; color:var(--ink-3); line-height:1.6; }
+
+/* ============================================================
+   TIMELINE (education / experience)
+   ============================================================ */
+.timeline{ position:relative; }
+.timeline::before{ content:''; position:absolute; left:7px; top:6px; bottom:6px; width:1px; background:var(--border-strong); }
+.t-item{ position:relative; padding-left:var(--s-6); margin-bottom:var(--s-5); }
+.t-item:last-child{ margin-bottom:0; }
+.t-item::before{
+  content:''; position:absolute; left:0; top:5px; width:15px; height:15px; border-radius:50%;
+  background:var(--surface); border:2.5px solid var(--accent);
+}
+.t-item__date{ font-family:var(--font-mono); font-size:.72rem; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-3); margin-bottom:4px; }
+.t-item__title{ font-size:1.05rem; font-weight:700; color:var(--ink); margin-bottom:2px; }
+.t-item__org{ font-size:.88rem; color:var(--accent); font-weight:500; margin-bottom:8px; }
+.t-item__desc{ font-size:.88rem; color:var(--ink-2); }
+.t-item__meta{ font-size:.82rem; color:var(--ink-3); margin-top:4px; }
+
+/* ============================================================
+   EXPERIENCE CARDS
+   ============================================================ */
+.exp-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
+  padding:var(--s-5); margin-bottom:var(--s-4); transition:box-shadow .2s, border-color .2s;
+}
+.exp-card:last-child{ margin-bottom:0; }
+.exp-card:hover{ box-shadow:var(--shadow-md); border-color:var(--accent-line); }
+.exp-card__head{ display:flex; justify-content:space-between; align-items:flex-start; gap:var(--s-4); margin-bottom:var(--s-3); flex-wrap:wrap; }
+.exp-card__title{ font-size:1.08rem; margin-bottom:3px; }
+.exp-card__org{ font-size:.88rem; color:var(--accent); font-weight:500; }
+.exp-card__date{
+  font-family:var(--font-mono); font-size:.72rem; letter-spacing:.05em; text-transform:uppercase;
+  color:var(--ink-3); background:var(--surface-alt); padding:5px 10px; border-radius:6px; white-space:nowrap; flex-shrink:0;
+}
+.exp-card ul{ display:flex; flex-direction:column; gap:7px; }
+.exp-card li{
+  font-size:.89rem; color:var(--ink-2); padding-left:16px; position:relative; line-height:1.6;
+}
+.exp-card li::before{ content:''; position:absolute; left:0; top:9px; width:5px; height:5px; border-radius:50%; background:var(--accent-line); }
+.exp-card li strong{ color:var(--ink); font-weight:600; }
+
+/* ============================================================
+   PROJECTS
+   ============================================================ */
+.project-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
+  overflow:hidden; display:flex; flex-direction:column; transition:box-shadow .2s, transform .2s, border-color .2s;
+  height:100%;
+}
+.project-card:hover{ transform:translateY(-3px); box-shadow:var(--shadow-lg); border-color:var(--accent-line); }
+.project-card__top{ padding:var(--s-5) var(--s-5) var(--s-4); border-bottom:1px solid var(--border); }
+.project-card__badge-row{ display:flex; align-items:center; gap:8px; margin-bottom:var(--s-3); flex-wrap:wrap; }
+.badge{
+  font-family:var(--font-mono); font-size:.66rem; font-weight:600; letter-spacing:.06em; text-transform:uppercase;
+  padding:4px 9px; border-radius:5px;
+}
+.badge--rank{ background:var(--accent-soft); color:var(--accent); border:1px solid var(--accent-line); }
+.badge--venue{ color:var(--ink-3); background:none; padding-left:0; }
+.project-card__title{ font-size:1.08rem; margin-bottom:6px; }
+.project-card__tag{ font-size:.78rem; color:var(--ink-3); font-family:var(--font-mono); }
+.project-card__body{ padding:var(--s-4) var(--s-5) var(--s-5); flex:1; display:flex; flex-direction:column; }
+.project-card__desc{ font-size:.88rem; color:var(--ink-2); margin-bottom:var(--s-4); }
+.project-card__result{
+  font-size:.83rem; color:var(--accent); font-weight:600; margin-bottom:var(--s-4);
+  padding-left:16px; position:relative;
+}
+.project-card__result::before{ content:'→'; position:absolute; left:0; }
+.project-card__tech{ display:flex; flex-wrap:wrap; gap:6px; margin-top:auto; }
+
+/* ============================================================
+   PUBLICATIONS
+   ============================================================ */
+.pub-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
+  padding:var(--s-5); margin-bottom:var(--s-4); transition:box-shadow .2s, border-color .2s;
+}
+.pub-card:last-child{ margin-bottom:0; }
+.pub-card:hover{ box-shadow:var(--shadow-md); border-color:var(--accent-line); }
+.pub-card__top{ display:flex; align-items:center; gap:8px; margin-bottom:var(--s-3); flex-wrap:wrap; }
+.pub-card__year{ margin-left:auto; font-family:var(--font-mono); font-size:.75rem; color:var(--ink-3); }
+.pub-card__title{ font-size:1.05rem; margin-bottom:8px; line-height:1.45; }
+.pub-card__authors{ font-size:.85rem; color:var(--ink-3); margin-bottom:4px; }
+.pub-card__authors strong{ color:var(--ink-2); font-weight:600; }
+.pub-card__venue{ font-size:.87rem; color:var(--accent); font-weight:500; margin-bottom:var(--s-3); }
+.pub-card__abstract{ font-size:.87rem; color:var(--ink-2); padding-top:var(--s-3); border-top:1px solid var(--border); margin-bottom:var(--s-3); display:none; }
+.pub-card__abstract.open{ display:block; }
+.pub-card__actions{ display:flex; gap:8px; flex-wrap:wrap; }
+.pub-card__actions a, .pub-card__actions button{
+  font-family:var(--font-body); font-size:.78rem; font-weight:600; color:var(--ink-2);
+  background:var(--surface-alt); border:1px solid var(--border); padding:7px 13px; border-radius:7px;
+  transition:all .2s;
+}
+.pub-card__actions a:hover, .pub-card__actions button:hover{ border-color:var(--accent); color:var(--accent); }
+.pub-card__tags{ display:flex; flex-wrap:wrap; gap:6px; margin-top:var(--s-3); padding-top:var(--s-3); border-top:1px solid var(--border); }
+
+/* ============================================================
+   SKILLS
+   ============================================================ */
+.skills__group{ margin-bottom:var(--s-5); }
+.skills__group:last-child{ margin-bottom:0; }
+.skills__label{ font-family:var(--font-mono); font-size:.72rem; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-3); margin-bottom:var(--s-3); }
+.skills__tags{ display:flex; flex-wrap:wrap; gap:8px; }
+
+/* ============================================================
+   CERTIFICATIONS
+   ============================================================ */
+.cert-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
+  padding:var(--s-4) var(--s-5); display:flex; align-items:center; gap:var(--s-4);
+  transition:box-shadow .2s, border-color .2s;
+}
+.cert-card:hover{ box-shadow:var(--shadow-sm); border-color:var(--accent-line); }
+.cert-card__icon{ width:38px; height:38px; border-radius:9px; background:var(--accent-soft); display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+.cert-card__icon svg{ width:18px; height:18px; color:var(--accent); }
+.cert-card__title{ font-size:.93rem; font-weight:600; color:var(--ink); margin-bottom:2px; }
+.cert-card__issuer{ font-size:.8rem; color:var(--ink-3); }
+
+/* ============================================================
+   ACHIEVEMENTS
+   ============================================================ */
+.ach-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
+  padding:var(--s-5); transition:box-shadow .2s, border-color .2s, transform .2s;
+}
+.ach-card:hover{ box-shadow:var(--shadow-md); border-color:var(--accent-line); transform:translateY(-2px); }
+.ach-card__meta{ font-family:var(--font-mono); font-size:.72rem; color:var(--ink-3); letter-spacing:.04em; margin-bottom:var(--s-3); }
+.ach-card h3{ font-size:1rem; margin-bottom:8px; line-height:1.4; }
+.ach-card p{ font-size:.86rem; color:var(--ink-2); }
+
+/* ============================================================
+   CONTACT
+   ============================================================ */
+.contact{ text-align:center; }
+.contact__inner{ max-width:640px; margin:0 auto; }
+.contact h2{ font-size:clamp(1.8rem,3.6vw,2.6rem); margin-bottom:var(--s-3); }
+.contact p{ color:var(--ink-3); font-size:1.02rem; margin-bottom:var(--s-6); }
+.contact__actions{ display:flex; flex-wrap:wrap; justify-content:center; gap:12px; margin-bottom:var(--s-6); }
+.contact__channels{ display:flex; flex-wrap:wrap; justify-content:center; gap:var(--s-5); }
+.contact__channel{ display:flex; align-items:center; gap:8px; font-size:.88rem; color:var(--ink-2); }
+.contact__channel svg{ width:16px; height:16px; color:var(--accent); }
+.contact__channel:hover{ color:var(--accent); }
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer{ background:var(--ink); color:rgba(255,255,255,.65); padding:var(--s-6) 0 var(--s-5); }
+.footer__inner{ display:flex; justify-content:space-between; align-items:center; gap:var(--s-4); flex-wrap:wrap; }
+.footer__brand{ font-family:var(--font-display); font-weight:700; color:#fff; font-size:1rem; margin-bottom:4px; }
+.footer__tagline{ font-size:.8rem; color:rgba(255,255,255,.45); }
+.footer__links{ display:flex; gap:var(--s-4); flex-wrap:wrap; }
+.footer__links a{ font-size:.83rem; color:rgba(255,255,255,.62); transition:color .2s; }
+.footer__links a:hover{ color:#fff; }
+.footer__bottom{ margin-top:var(--s-5); padding-top:var(--s-4); border-top:1px solid rgba(255,255,255,.12); font-size:.76rem; color:rgba(255,255,255,.35); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; }
+
+/* ============================================================
+   REVEAL ANIMATION
+   ============================================================ */
+.reveal{ opacity:0; transform:translateY(16px); transition:opacity .6s var(--ease), transform .6s var(--ease); }
+.reveal.in{ opacity:1; transform:translateY(0); }
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" aria-label="Primary">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand">
+      <svg class="nav__mark" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+        <circle cx="50" cy="50" r="46" stroke="#2F4C86" stroke-width="6"/>
+        <circle cx="34" cy="38" r="7" fill="#2F4C86"/>
+        <circle cx="68" cy="34" r="7" fill="#2F4C86"/>
+        <circle cx="58" cy="68" r="7" fill="#2F4C86"/>
+        <line x1="34" y1="38" x2="68" y2="34" stroke="#2F4C86" stroke-width="4"/>
+        <line x1="34" y1="38" x2="58" y2="68" stroke="#2F4C86" stroke-width="4"/>
+        <line x1="68" y1="34" x2="58" y2="68" stroke="#2F4C86" stroke-width="4"/>
+      </svg>
+      Gaurav Kumar
+    </a>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav__cta">
+      <a href="Gaurav_Kumar_Resume.pdf" class="btn btn--outline" download>Resume</a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section id="top" class="hero">
+  <div class="wrap hero__inner">
+    <div>
+      <span class="hero__badge"><span class="dot"></span> Junior Research Fellow · Open to PhD / MS &amp; Teaching Roles</span>
+      <h1 class="reveal in">AI research at the intersection of language, knowledge&nbsp;&amp; <span class="accent">culture.</span></h1>
+      <p class="hero__lead">I'm an early-career AI researcher working across NLP, knowledge graphs, and generative AI — with peer-reviewed publications and an international shared-task placement (3rd of 47 teams, SemEval‑2026, ACL). Currently a Junior Research Fellow at the AI Centre for Research, Swami Rama Himalayan University, Dehradun.</p>
+      <div class="hero__tags" aria-label="Research areas">
+        <span class="tag">Natural Language Processing</span>
+        <span class="tag">Knowledge Graphs</span>
+        <span class="tag">Generative AI</span>
+        <span class="tag">Computer Vision</span>
+        <span class="tag">Indian Knowledge Systems</span>
+      </div>
+      <div class="hero__meta">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21z"/><circle cx="12" cy="9" r="2.4"/></svg> Dehradun, Uttarakhand, India</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 8h18M8 4v4M16 4v4"/></svg> AI Centre for Research, SRHU · Apr 2026–Present</span>
+      </div>
+      <div class="hero__actions">
+        <a href="Gaurav_Kumar_Resume.pdf" class="btn btn--primary" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+          Download Résumé
+        </a>
+        <a href="https://scholar.google.com/citations?hl=en&authuser=2&user=ENW2IrQAAAAJ" class="btn btn--outline" target="_blank" rel="noopener">Google Scholar ↗</a>
+        <a href="https://github.com/Coding-with-Gaurav" class="btn btn--outline" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/gaurav-kumar17" class="btn btn--outline" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+
+    <div class="hero__visual" aria-hidden="true">
+      <svg viewBox="0 0 460 460">
+        <g class="graph-edge" stroke="#C6D3EC" stroke-width="1.6">
+          <line x1="230" y1="230" x2="90" y2="120"/>
+          <line x1="230" y1="230" x2="360" y2="100"/>
+          <line x1="230" y1="230" x2="380" y2="260"/>
+          <line x1="230" y1="230" x2="130" y2="350"/>
+          <line x1="230" y1="230" x2="290" y2="380"/>
+          <line x1="90" y1="120" x2="360" y2="100"/>
+          <line x1="380" y1="260" x2="290" y2="380"/>
+          <line x1="130" y1="350" x2="290" y2="380"/>
+        </g>
+        <g font-family="IBM Plex Mono" font-size="11" fill="#454C58">
+          <g class="graph-node">
+            <circle cx="230" cy="230" r="30" fill="#2F4C86"/>
+            <text x="230" y="234" text-anchor="middle" fill="#fff" font-weight="600" font-size="12">Gaurav</text>
+          </g>
+          <g class="graph-node">
+            <circle cx="90" cy="120" r="22" fill="#fff" stroke="#2F4C86" stroke-width="2"/>
+            <text x="90" y="150" text-anchor="middle">NLP</text>
+          </g>
+          <g class="graph-node">
+            <circle cx="360" cy="100" r="22" fill="#fff" stroke="#2F4C86" stroke-width="2"/>
+            <text x="360" y="78" text-anchor="middle">Knowledge Graphs</text>
+          </g>
+          <g class="graph-node">
+            <circle cx="380" cy="260" r="22" fill="#fff" stroke="#2F4C86" stroke-width="2"/>
+            <text x="392" y="292" text-anchor="middle">Generative AI</text>
+          </g>
+          <g class="graph-node">
+            <circle cx="130" cy="350" r="22" fill="#fff" stroke="#2F4C86" stroke-width="2"/>
+            <text x="120" y="382" text-anchor="middle">Computer Vision</text>
+          </g>
+          <g class="graph-node">
+            <circle cx="290" cy="380" r="22" fill="#fff" stroke="#2F4C86" stroke-width="2"/>
+            <text x="300" y="410" text-anchor="middle">IKS</text>
+          </g>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<div class="stats">
+  <div class="wrap">
+    <div class="stats__row">
+      <div class="stat"><div class="stat__num">3</div><div class="stat__label">Peer-reviewed Publications</div></div>
+      <div class="stat"><div class="stat__num"><span class="accent">3rd</span> / 47</div><div class="stat__label">SemEval‑2026 Team Ranking</div></div>
+      <div class="stat"><div class="stat__num">6</div><div class="stat__label">Applied Research Projects</div></div>
+      <div class="stat"><div class="stat__num">2</div><div class="stat__label">IIT Mandi MBCC Presentations</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section id="about">
+  <div class="wrap">
+    <div class="about__grid">
+      <div class="reveal">
+        <span class="eyebrow">Research Statement</span>
+        <h2 style="font-size:clamp(1.6rem,3vw,2.15rem); margin-bottom:var(--s-4);">About</h2>
+        <div class="about__text">
+          <p>I am an early-career AI researcher and Junior Research Fellow at the AI Centre for Research, Swami Rama Himalayan University, Dehradun, working on applied Machine Learning, Natural Language Processing, and interdisciplinary AI — including AI for healthcare and AI applications in Indian Knowledge Systems.</p>
+          <p>In 2026, I contributed to a system ranked <strong style="color:var(--ink);">3rd out of 47 international teams</strong> at SemEval‑2026 Task 4, part of ACL 2026 in San Diego, and served as a peer reviewer for two workshop papers in narrative understanding and NLP. My publication record spans a shared-task system paper in the ACL Anthology, a Springer book chapter on AI-based Ayurvedic diagnosis, and a presented paper on multimodal AI for spiritual well‑being at IIT Mandi's Mind, Brain &amp; Consciousness Conference.</p>
+          <p>I am committed to undergraduate and postgraduate teaching in AI, Machine Learning, and Computer Science, and I'm looking toward research and teaching opportunities — including PhD and MS programs — that let me keep working at the boundary between rigorous AI methods and interdisciplinary, real-world domains.</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="about__panel reveal">
+          <h4>Contact</h4>
+          <dl>
+            <div class="info-row"><dt>Email</dt><dd><a href="mailto:gauravkumarsony08@gmail.com">gauravkumarsony08@gmail.com</a></dd></div>
+            <div class="info-row"><dt>Phone</dt><dd>+91 8877386366</dd></div>
+            <div class="info-row"><dt>Location</dt><dd>Dehradun, Uttarakhand, India</dd></div>
+          </dl>
+        </div>
+        <div class="about__panel reveal">
+          <h4>Profiles</h4>
+          <div style="display:flex; flex-direction:column; gap:8px;">
+            <a href="https://scholar.google.com/citations?hl=en&authuser=2&user=ENW2IrQAAAAJ" target="_blank" rel="noopener" class="btn btn--outline" style="justify-content:center;">Google Scholar ↗</a>
+            <a href="https://www.linkedin.com/in/gaurav-kumar17" target="_blank" rel="noopener" class="btn btn--outline" style="justify-content:center;">LinkedIn ↗</a>
+            <a href="https://github.com/Coding-with-Gaurav" target="_blank" rel="noopener" class="btn btn--outline" style="justify-content:center;">GitHub ↗</a>
+          </div>
+        </div>
+        <div class="about__panel reveal">
+          <h4>Current Position</h4>
+          <p style="font-size:.93rem; font-weight:600; color:var(--ink); margin-bottom:2px;">Junior Research Fellow</p>
+          <p style="font-size:.85rem; color:var(--accent); margin-bottom:4px;">AI Centre for Research</p>
+          <p style="font-size:.82rem; color:var(--ink-3);">Swami Rama Himalayan University, Dehradun · Apr 2026 – Present</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESEARCH INTERESTS ============ -->
+<section id="research" class="alt">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Focus Areas</span>
+      <h2>Research Interests</h2>
+      <p>Five interconnected threads running through my publications, projects, and fellowships.</p>
+    </div>
+    <div class="grid-3">
+      <div class="interest-card reveal">
+        <div class="interest-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16M4 12h10M4 18h13"/></svg></div>
+        <h3>Natural Language Processing</h3>
+        <p>Narrative similarity reasoning, semantic evaluation, entity recognition, and LLM-based prompting strategies — grounded in a SemEval‑2026 shared‑task placement (3rd/47 teams) and workshop peer review.</p>
+      </div>
+      <div class="interest-card reveal">
+        <div class="interest-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="6" cy="6" r="2.4"/><circle cx="18" cy="6" r="2.4"/><circle cx="12" cy="18" r="2.4"/><path d="M8 7l3 9m5-9l-3 9M8.3 6h7.4"/></svg></div>
+        <h3>Knowledge Graphs</h3>
+        <p>LLM-driven knowledge graph construction from unstructured documents, with source-linked evidence retrieval and interactive graph visualization — built and led as part of the HistoAI research platform.</p>
+      </div>
+      <div class="interest-card reveal">
+        <div class="interest-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/><circle cx="12" cy="12" r="3.2"/></svg></div>
+        <h3>Generative AI &amp; RAG</h3>
+        <p>Retrieval-augmented generation over domain-specific knowledge bases, hallucination mitigation through local LLM benchmarking, and structured-extraction pipelines with source verification.</p>
+      </div>
+      <div class="interest-card reveal">
+        <div class="interest-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="6" width="18" height="12" rx="2"/><circle cx="12" cy="12" r="3.2"/><path d="M7 6l1.5-2h7L17 6"/></svg></div>
+        <h3>Computer Vision</h3>
+        <p>On-device TFLite image-quality classification, contactless fingerprint matching, and real-time liveness detection — developed for a UIDAI Open Innovation proposal and Ayurvedic diagnosis research.</p>
+      </div>
+      <div class="interest-card reveal">
+        <div class="interest-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2c3 3 4.5 6 4.5 9.5A4.5 4.5 0 0 1 12 16a4.5 4.5 0 0 1-4.5-4.5C7.5 8 9 5 12 2z"/><path d="M12 16v6"/></svg></div>
+        <h3>AI × Indian Knowledge Systems</h3>
+        <p>AI applied to Ayurveda and consciousness studies — an expert system for AI tongue diagnosis and a multimodal framework for spiritual well‑being, both presented at IIT Mandi's MBCC.</p>
+      </div>
+      <div class="interest-card reveal">
+        <div class="interest-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
+        <h3>Teaching &amp; Mentorship</h3>
+        <p>Committed to undergraduate and postgraduate teaching in AI, ML, and Computer Science — with three years of classroom teaching and ongoing mentorship of research interns and MCA students.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section id="education">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Academic Background</span>
+      <h2>Education</h2>
+    </div>
+    <div class="timeline">
+      <div class="t-item reveal">
+        <div class="t-item__date">2023 – 2025</div>
+        <div class="t-item__title">Master of Computer Applications (Data Science)</div>
+        <div class="t-item__org">Dev Sanskriti Vishwavidyalaya, Uttarakhand</div>
+        <div class="t-item__meta">CGPA: 8.30 / 10.0</div>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-item__date">2019 – 2022</div>
+        <div class="t-item__title">Bachelor of Science in Information Technology</div>
+        <div class="t-item__org">Patliputra University, Patna</div>
+        <div class="t-item__meta">Percentage: 70.0%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section id="experience" class="alt">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Career Timeline</span>
+      <h2>Research &amp; Professional Experience</h2>
+      <p>Five roles across two research centres, from project intern to Junior Research Fellow.</p>
+    </div>
+
+    <div class="exp-card reveal">
+      <div class="exp-card__head">
+        <div>
+          <div class="exp-card__title">Junior Research Fellow</div>
+          <div class="exp-card__org">AI Centre for Research · Swami Rama Himalayan University, Dehradun</div>
+        </div>
+        <div class="exp-card__date">Apr 2026 – Present</div>
+      </div>
+      <ul>
+        <li>Conducting applied research in <strong>Machine Learning, NLP</strong>, and interdisciplinary AI domains at the intersection of AI and Indian Knowledge Systems (IKS).</li>
+        <li>Authored and presented a research paper at the <strong>3rd MBCC 2026, IIT Mandi</strong> on integrating AI with spirituality.</li>
+        <li>Developing <strong>Astrowala.world</strong>, a React Native Android LMS for a Vedic astrology and spiritual learning platform, with live class discovery and course access management.</li>
+        <li>Mentoring research interns on applied AI/ML workflows and engaging in requirement gathering and progress tracking across active projects.</li>
+      </ul>
+    </div>
+
+    <div class="exp-card reveal">
+      <div class="exp-card__head">
+        <div>
+          <div class="exp-card__title">Junior Research Fellow</div>
+          <div class="exp-card__org">Center for AI &amp; Research (CAIR) · Dev Sanskriti Vishwavidyalaya, Haridwar</div>
+        </div>
+        <div class="exp-card__date">Jun 2025 – Mar 2026</div>
+      </div>
+      <ul>
+        <li>Contributed to web development, structured data extraction, and system integration for <strong>HistoAI</strong>, a full-stack research platform (React, Flask, MongoDB).</li>
+        <li>Contributed to <strong>Ayur Scan</strong>, an AI-powered Ayurvedic tongue diagnosis data-collection application.</li>
+        <li>Research presented at the <strong>2nd MBCC 2025, IIT Mandi</strong>; participated in the International Conference on Faith &amp; Future, DSVV Haridwar.</li>
+        <li>Mentored a final-year MCA student on an NLP project and interns from a CAIR Lab–incubated startup.</li>
+      </ul>
+    </div>
+
+    <div class="exp-card reveal">
+      <div class="exp-card__head">
+        <div>
+          <div class="exp-card__title">Research Intern</div>
+          <div class="exp-card__org">Center for AI &amp; Research (CAIR) · Dev Sanskriti Vishwavidyalaya, Haridwar</div>
+        </div>
+        <div class="exp-card__date">Jan 2025 – May 2025</div>
+      </div>
+      <ul>
+        <li>Researched mobile-based tongue image analysis models for Ayurvedic analysis.</li>
+        <li>Developed an <strong>LLM-powered system</strong> for structured data extraction from historical books with intelligent redirection.</li>
+        <li>Built full-stack tools using React, Flask, MongoDB, and WebSocket for real-time data processing.</li>
+        <li>Collaborated on <strong>OCR</strong> projects for the digitization of Sanskrit and Vedic texts.</li>
+      </ul>
+    </div>
+
+    <div class="exp-card reveal">
+      <div class="exp-card__head">
+        <div>
+          <div class="exp-card__title">Project Intern</div>
+          <div class="exp-card__org">Center for AI &amp; Research (CAIR) · Dev Sanskriti Vishwavidyalaya, Haridwar</div>
+        </div>
+        <div class="exp-card__date">May 2024 – Jul 2024</div>
+      </div>
+      <ul>
+        <li>Explored NLP-based projects, gaining practical exposure to model training, evaluation, and deployment.</li>
+        <li>Researched Hindi transcription and language modeling for indigenous language datasets.</li>
+      </ul>
+    </div>
+
+    <div class="exp-card reveal">
+      <div class="exp-card__head">
+        <div>
+          <div class="exp-card__title">Volunteer, IT Cell (Software Development)</div>
+          <div class="exp-card__org">All World Gayatri Pariwar, Shantikunj, Haridwar</div>
+        </div>
+        <div class="exp-card__date">Dec 2023 – Feb 2024</div>
+      </div>
+      <ul>
+        <li>Supported internal software development and testing activities to enhance digital infrastructure reliability.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Applied Systems</span>
+      <h2>Featured Projects</h2>
+      <p>Research systems and applied AI projects spanning NLP, knowledge graphs, computer vision, and mobile AI.</p>
+    </div>
+
+    <div class="grid-2">
+      <article class="project-card reveal">
+        <div class="project-card__top">
+          <div class="project-card__badge-row">
+            <span class="badge badge--rank">🏆 3rd / 47 teams</span>
+            <span class="badge badge--venue">SemEval‑2026 · ACL 2026</span>
+          </div>
+          <h3 class="project-card__title">AI-Monitors: Hybrid Embedding &amp; LLM Ensemble for Narrative Similarity</h3>
+          <p class="project-card__tag">Prompt Engineering · LLM Evaluation · Ensemble Methods</p>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__desc">Designed structured prompting strategies for LLMs to solve narrative similarity reasoning, and built a hybrid ensemble of sentence embedding and LLM-based models — selecting components by error diversity rather than accuracy alone.</p>
+          <p class="project-card__result">75% test accuracy, near the human annotator ceiling of 78%</p>
+          <div class="project-card__tech">
+            <span class="tag">LLMs</span><span class="tag">Sentence Transformers</span><span class="tag">Python</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card__top">
+          <div class="project-card__badge-row">
+            <span class="badge badge--venue">Team Project · Developer Lead</span>
+          </div>
+          <h3 class="project-card__title">HistoAI — Historical Data Extraction &amp; Analysis System</h3>
+          <p class="project-card__tag">Full-Stack · RAG · Knowledge Graphs · OCR</p>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__desc">An RBAC web platform unifying four AI modules — OCR, RAG chatbot, knowledge graph, and data extraction — under JWT-secured routes, with a locally hosted LLM extraction pipeline benchmarked to reduce hallucination.</p>
+          <p class="project-card__result">Every output traceable to its source PDF page for verification</p>
+          <div class="project-card__tech">
+            <span class="tag">React</span><span class="tag">Flask</span><span class="tag">MongoDB</span><span class="tag">Redis + Celery</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card__top">
+          <div class="project-card__badge-row">
+            <span class="badge badge--venue">UIDAI Open Innovation Proposal</span>
+          </div>
+          <h3 class="project-card__title">Contactless Fingerprint Matching &amp; Liveness Detection</h3>
+          <p class="project-card__tag">Computer Vision · Biometric Authentication</p>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__desc">A dual biometric system: contactless fingerprint capture with database matching and confidence scoring, plus real-time liveness detection classifying face input as real or spoofed.</p>
+          <p class="project-card__result">Owned full mobile-side development with Flask API integration</p>
+          <div class="project-card__tech">
+            <span class="tag">React Native</span><span class="tag">Face Recognition</span><span class="tag">Flask</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card__top">
+          <div class="project-card__badge-row">
+            <span class="badge badge--venue">Linked to MBCC 2025 Publication</span>
+          </div>
+          <h3 class="project-card__title">Ayur Scan — AI-Powered Tongue Data Collection</h3>
+          <p class="project-card__tag">Mobile App · TFLite · Ayurvedic AI</p>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__desc">A Flutter Android app enabling Ayurvedic therapists to collect structured patient records and tongue imagery, with an on-device TFLite classifier validating image quality at capture time.</p>
+          <p class="project-card__result">Primary data-collection tool for the published MBCC 2025 study</p>
+          <div class="project-card__tech">
+            <span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">TFLite</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card__top">
+          <div class="project-card__badge-row">
+            <span class="badge badge--venue">Research Tool</span>
+          </div>
+          <h3 class="project-card__title">Knowledge Graph Generation from Text Documents</h3>
+          <p class="project-card__tag">LLMs · NLP · Information Retrieval</p>
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__desc">A pipeline for knowledge graph construction from unstructured documents using locally hosted LLMs for entity recognition and relationship extraction, with an interactive graph visualization.</p>
+          <p class="project-card__result">Every node links directly back to its originating PDF page</p>
+          <div class="project-card__tech">
+            <span class="tag">Ollama</span><span class="tag">LangChain</span><span class="tag">NetworkX</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PUBLICATIONS ============ -->
+<section id="publications" class="alt">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Scholarly Work</span>
+      <h2>Publications</h2>
+      <p>Peer-reviewed and presented research in NLP, generative AI, and AI for Indian Knowledge Systems.</p>
+    </div>
+
+    <article class="pub-card reveal">
+      <div class="pub-card__top">
+        <span class="badge badge--rank">Published · ACL Anthology</span>
+        <span class="badge badge--rank" style="background:var(--surface-alt); color:var(--ink-2); border-color:var(--border);">🏆 3rd / 47 teams</span>
+        <span class="pub-card__year">2026</span>
+      </div>
+      <h3 class="pub-card__title">AI-Monitors at SemEval-2026 Task 4: A Hybrid Embedding and LLM Ensemble for Narrative Similarity</h3>
+      <p class="pub-card__authors"><strong>Gaurav Kumar</strong> et al. — Team AI-Monitors</p>
+      <p class="pub-card__venue">20th International Workshop on Semantic Evaluation (SemEval-2026), ACL 2026, San Diego, USA</p>
+      <div class="pub-card__abstract" id="abs-1">Structured prompting strategies for large language models applied to narrative similarity reasoning, combined into a hybrid ensemble of sentence embedding and LLM-based models. Components were selected by error diversity rather than accuracy alone, reaching 75% test accuracy — close to the human annotator ceiling of 78%. Team AI-Monitors ranked 3rd of 47 international teams; also served as peer reviewer for two workshop papers in narrative understanding and NLP.</div>
+      <div class="pub-card__actions">
+        <button type="button" class="abstract-toggle" data-target="abs-1">Abstract ↓</button>
+        <a href="https://aclanthology.org/2026.semeval-1.271/" target="_blank" rel="noopener">ACL Anthology ↗</a>
+      </div>
+      <div class="pub-card__tags">
+        <span class="tag">Prompt Engineering</span><span class="tag">LLM Evaluation</span><span class="tag">Ensemble Methods</span><span class="tag">Narrative Reasoning</span>
+      </div>
+    </article>
+
+    <article class="pub-card reveal">
+      <div class="pub-card__top">
+        <span class="badge badge--rank" style="background:var(--surface-alt); color:var(--ink-2); border-color:var(--border);">Presented</span>
+        <span class="pub-card__year">2026</span>
+      </div>
+      <h3 class="pub-card__title">The Spiritual Well-being Index (SWBI): A Multimodal AI Framework for Assessing and Supporting Spiritual Growth</h3>
+      <p class="pub-card__authors"><strong>Gaurav Kumar</strong> et al.</p>
+      <p class="pub-card__venue">3rd International Mind, Brain &amp; Consciousness Conference (MBCC 2026), IIT Mandi, 3–7 June 2026</p>
+      <div class="pub-card__abstract" id="abs-2">A multimodal AI framework, the Spiritual Well-being Index, designed to assess and support spiritual growth through quantifiable indicators — integrating AI methodologies with Indian Knowledge Systems. Presented at the 3rd MBCC, IIT Mandi; proceedings forthcoming.</div>
+      <div class="pub-card__actions">
+        <button type="button" class="abstract-toggle" data-target="abs-2">Abstract ↓</button>
+        <a href="https://iksmha.iitmandi.ac.in/mbcc/2026/" target="_blank" rel="noopener">Conference ↗</a>
+      </div>
+      <div class="pub-card__tags">
+        <span class="tag">Multimodal AI</span><span class="tag">Indian Knowledge Systems</span><span class="tag">Consciousness Studies</span>
+      </div>
+    </article>
+
+    <article class="pub-card reveal">
+      <div class="pub-card__top">
+        <span class="badge badge--rank">Published · Springer</span>
+        <span class="pub-card__year">2026</span>
+      </div>
+      <h3 class="pub-card__title">AI Tongue Diagnosis: Expert System with LLMs for Abdominal Disease Detection Through Mobile App</h3>
+      <p class="pub-card__authors"><strong>Gaurav Kumar</strong> et al.</p>
+      <p class="pub-card__venue">Cognitive Neuroscience and Artificial Intelligence, MBCC 2025, Studies in Rhythm Engineering, Springer, Cham, pp. 14–25</p>
+      <div class="pub-card__abstract" id="abs-3">An expert AI system for Ayurvedic tongue-based abdominal disease diagnosis via a Flutter mobile application, enabling therapists to collect structured patient data and tongue imagery. Integrates an on-device TFLite classifier for image-quality validation and an LLM-powered expert system for diagnostic support — presented at the 2nd MBCC, IIT Mandi, and published as a Springer book chapter.</div>
+      <div class="pub-card__actions">
+        <button type="button" class="abstract-toggle" data-target="abs-3">Abstract ↓</button>
+        <a href="https://doi.org/10.1007/978-3-032-19966-9_2" target="_blank" rel="noopener">DOI ↗</a>
+      </div>
+      <div class="pub-card__tags">
+        <span class="tag">LLMs</span><span class="tag">Mobile AI</span><span class="tag">TFLite</span><span class="tag">Expert Systems</span>
+      </div>
+    </article>
+
+    <div class="about__panel reveal" style="margin-top:var(--s-5);">
+      <h4>Academic Service</h4>
+      <p style="font-size:.9rem; color:var(--ink-2);">Peer Reviewer — 2 workshop papers, SemEval-2026, ACL 2026, San Diego (narrative understanding &amp; NLP research)</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TEACHING ============ -->
+<section id="teaching">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Instruction &amp; Mentorship</span>
+      <h2>Teaching Experience</h2>
+      <p>Committed to undergraduate and postgraduate teaching in AI, Machine Learning, and Computer Science.</p>
+    </div>
+
+    <div class="exp-card reveal">
+      <div class="exp-card__head">
+        <div>
+          <div class="exp-card__title">Guest Lecturer &amp; Team Lead, Social Internship (MCA Curriculum)</div>
+          <div class="exp-card__org">Surat, Gujarat — Dev Sanskriti Vishwavidyalaya</div>
+        </div>
+        <div class="exp-card__date">One Month</div>
+      </div>
+      <ul>
+        <li>Delivered 50+ interactive lecture sessions across schools, colleges, and universities in Surat, including SVNIT, Veer Narmad South Gujarat University, the Centre for Hindu Studies, and an IAS/IPS training centre.</li>
+        <li>Taught mixed-discipline student groups — BCA, MCA, B.Com, M.Com, BBA, MBA, Biotechnology, B.Sc/M.Sc Physics &amp; Chemistry, Master of Social Work — adapting delivery to each audience.</li>
+        <li>Designed sessions on time management, personality development, de-addiction awareness, environmental responsibility, and Indian culture.</li>
+        <li>Led a 3-member team to plan session flow, allocate topics, and coordinate scheduling across institutions.</li>
+      </ul>
+    </div>
+
+    <div class="exp-card reveal">
+      <div class="exp-card__head">
+        <div>
+          <div class="exp-card__title">Computer Science Teacher</div>
+          <div class="exp-card__org">St. Agnesh English School</div>
+        </div>
+        <div class="exp-card__date">2021 – 2023</div>
+      </div>
+      <ul>
+        <li>Taught computer science to students in grades 6–10, covering programming fundamentals and problem-solving.</li>
+        <li>Designed lesson plans and classroom activities to build foundational programming and digital literacy skills.</li>
+      </ul>
+    </div>
+
+    <div class="exp-card reveal">
+      <div class="exp-card__head">
+        <div>
+          <div class="exp-card__title">Computer Science Teacher</div>
+          <div class="exp-card__org">Holy Vaishali School</div>
+        </div>
+        <div class="exp-card__date">2019 – 2021</div>
+      </div>
+      <ul>
+        <li>Instructed students in computer fundamentals, MS Office applications, and introductory programming.</li>
+        <li>Conducted interactive sessions to strengthen student understanding, participation, and communication skills.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills" class="alt">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Technical Toolkit</span>
+      <h2>Skills</h2>
+    </div>
+    <div class="grid-2" style="gap:var(--s-6);">
+      <div>
+        <div class="skills__group reveal">
+          <div class="skills__label">Programming &amp; Core CS</div>
+          <div class="skills__tags"><span class="tag">Python</span><span class="tag">JavaScript</span><span class="tag">Dart</span><span class="tag">Data Structures &amp; Algorithms</span></div>
+        </div>
+        <div class="skills__group reveal">
+          <div class="skills__label">AI, ML &amp; NLP</div>
+          <div class="skills__tags"><span class="tag">LLMs</span><span class="tag">Prompt Engineering</span><span class="tag">RAG</span><span class="tag">Sentence Transformers</span><span class="tag">Ensemble Methods</span><span class="tag">Knowledge Graphs</span><span class="tag">Entity Recognition</span><span class="tag">Ollama</span><span class="tag">LangChain</span><span class="tag">TFLite</span></div>
+        </div>
+        <div class="skills__group reveal">
+          <div class="skills__label">Computer Vision</div>
+          <div class="skills__tags"><span class="tag">OpenCV</span><span class="tag">Tesseract OCR</span><span class="tag">Image Processing</span></div>
+        </div>
+        <div class="skills__group reveal">
+          <div class="skills__label">Research, Data &amp; Visualization</div>
+          <div class="skills__tags"><span class="tag">NetworkX</span><span class="tag">Pyvis</span><span class="tag">Streamlit</span><span class="tag">Jupyter</span><span class="tag">LaTeX</span></div>
+        </div>
+      </div>
+      <div>
+        <div class="skills__group reveal">
+          <div class="skills__label">Web &amp; Mobile Development</div>
+          <div class="skills__tags"><span class="tag">React.js</span><span class="tag">Node.js</span><span class="tag">Flask</span><span class="tag">Flutter</span><span class="tag">React Native</span><span class="tag">REST API</span><span class="tag">WebSocket</span><span class="tag">Tailwind CSS</span></div>
+        </div>
+        <div class="skills__group reveal">
+          <div class="skills__label">Databases &amp; Backend Infrastructure</div>
+          <div class="skills__tags"><span class="tag">MongoDB</span><span class="tag">Redis</span><span class="tag">MySQL</span><span class="tag">Celery</span><span class="tag">JWT</span><span class="tag">Firebase</span></div>
+        </div>
+        <div class="skills__group reveal">
+          <div class="skills__label">Deployment &amp; DevOps</div>
+          <div class="skills__tags"><span class="tag">Docker</span><span class="tag">GitHub Actions</span><span class="tag">Vercel</span><span class="tag">Render</span><span class="tag">Cloudinary</span><span class="tag">MongoDB Atlas</span></div>
+        </div>
+        <div class="skills__group reveal">
+          <div class="skills__label">Version Control &amp; Collaboration</div>
+          <div class="skills__tags"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Postman</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section id="certifications">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Continuing Education</span>
+      <h2>Certifications</h2>
+    </div>
+    <div class="grid-2">
+      <div class="cert-card reveal">
+        <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4H6.5A2.5 2.5 0 0 0 4 6.5v13z"/><path d="M6.5 17H20v3H6.5A2.5 2.5 0 0 1 4 17.5"/></svg></div>
+        <div><div class="cert-card__title">Introduction to Data Science</div><div class="cert-card__issuer">Coursera</div></div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4H6.5A2.5 2.5 0 0 0 4 6.5v13z"/><path d="M6.5 17H20v3H6.5A2.5 2.5 0 0 1 4 17.5"/></svg></div>
+        <div><div class="cert-card__title">Crash Course on Git, GitHub &amp; Markdown</div><div class="cert-card__issuer">Udemy</div></div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4H6.5A2.5 2.5 0 0 0 4 6.5v13z"/><path d="M6.5 17H20v3H6.5A2.5 2.5 0 0 1 4 17.5"/></svg></div>
+        <div><div class="cert-card__title">Introduction to Generative AI</div><div class="cert-card__issuer">Google Cloud Skills Boost</div></div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4H6.5A2.5 2.5 0 0 0 4 6.5v13z"/><path d="M6.5 17H20v3H6.5A2.5 2.5 0 0 1 4 17.5"/></svg></div>
+        <div><div class="cert-card__title">Big Data Certification</div><div class="cert-card__issuer">Udemy</div></div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4H6.5A2.5 2.5 0 0 0 4 6.5v13z"/><path d="M6.5 17H20v3H6.5A2.5 2.5 0 0 1 4 17.5"/></svg></div>
+        <div><div class="cert-card__title">Data Analytics with Tableau</div><div class="cert-card__issuer">Jobaaj Learnings</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACHIEVEMENTS / SERVICE ============ -->
+<section id="achievements" class="alt">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Recognition &amp; Service</span>
+      <h2>Achievements &amp; Academic Engagement</h2>
+      <p>Conference presentations, competition results, and service alongside my core research.</p>
+    </div>
+    <div class="grid-3">
+      <div class="ach-card reveal">
+        <div class="ach-card__meta">ACL 2026 · SAN DIEGO, USA</div>
+        <h3>SemEval-2026 Task 4 — 3rd of 47 International Teams</h3>
+        <p>Ranked 3rd in a competitive NLP shared task on narrative reasoning, approaching the human annotator ceiling of 78%. Also served as peer reviewer for 2 workshop papers.</p>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-card__meta">IIT Mandi · 3–7 JUNE 2026</div>
+        <h3>3rd International Mind, Brain &amp; Consciousness Conference</h3>
+        <p>Presented original research on the Spiritual Well-being Index, representing AI Centre for Research, SRHU, in interdisciplinary sessions on neuroscience and AI.</p>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-card__meta">SRHU DEHRADUN · MAY 2026</div>
+        <h3>Workshop on Art of Effective Manuscript Writing</h3>
+        <p>Trained in scientific manuscript writing, critical appraisal of literature, and journal selection by Dr. Vinay Kumar Khanna, President, Indian Academy of Neurosciences.</p>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-card__meta">IIT Mandi · 2025</div>
+        <h3>2nd International Mind, Brain &amp; Consciousness Conference</h3>
+        <p>Presented peer-reviewed research on AI-based tongue diagnosis for abdominal disease detection, representing CAIR Lab, DSVV — later published as a Springer book chapter.</p>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-card__meta">CAIR-LAB, DSVV</div>
+        <h3>Winner — 24-Hour Coding Hackathon</h3>
+        <p>Developed a web-based learning platform under time constraints with a team, demonstrating rapid prototyping and full-stack development skills.</p>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-card__meta">ICFAI UNIVERSITY, DEHRADUN</div>
+        <h3>Greenovation Ideathon</h3>
+        <p>Proposed an AI-driven solution to support circular economy and sustainable resource management initiatives.</p>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-card__meta">DSVV, HARIDWAR · 2024</div>
+        <h3>International Conference on Scientific Spirituality</h3>
+        <p>Volunteered in conference logistics, speaker coordination, and registration, and facilitated interdisciplinary sessions on AI, consciousness studies, and IKS.</p>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-card__meta">AIIMS RISHIKESH · 2023</div>
+        <h3>6th International Conference on Yoga, Yagya &amp; Ayurveda</h3>
+        <p>Provided technical support and session coordination for an international academic conference at Shriram Yoga Society, AIIMS Rishikesh.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="contact">
+  <div class="wrap contact__inner">
+    <span class="eyebrow" style="justify-content:center; display:inline-flex;">Get in Touch</span>
+    <h2>Let's talk research.</h2>
+    <p>Open to PhD and MS research positions, collaborations, and teaching opportunities in AI, Machine Learning, and Computer Science.</p>
+    <div class="contact__actions">
+      <a href="mailto:gauravkumarsony08@gmail.com" class="btn btn--primary">Email Me</a>
+      <a href="Gaurav_Kumar_Resume.pdf" class="btn btn--outline" download>Download Résumé</a>
+    </div>
+    <div class="contact__channels">
+      <a class="contact__channel" href="mailto:gauravkumarsony08@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>gauravkumarsony08@gmail.com</a>
+      <a class="contact__channel" href="tel:+918877386366"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .7 3a2 2 0 0 1-.4 2.1L8.1 10a16 16 0 0 0 6 6l1.2-1.3a2 2 0 0 1 2.1-.4c1 .4 2 .6 3 .7a2 2 0 0 1 1.7 2z"/></svg>+91 88773 86366</a>
+      <a class="contact__channel" href="https://www.linkedin.com/in/gaurav-kumar17" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7M7 7v.01M12 17v-4.5a2 2 0 0 1 4 0V17"/></svg>linkedin.com/in/gaurav-kumar17</a>
+      <a class="contact__channel" href="https://github.com/Coding-with-Gaurav" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2-.2 4.5-1 4.5-4.5a3.5 3.5 0 0 0-1-2.5 3.2 3.2 0 0 0-.1-2.4s-.9-.2-2.9 1.1a10.4 10.4 0 0 0-5.6 0C7.4 2.9 6.5 3.1 6.5 3.1a3.2 3.2 0 0 0-.1 2.4A3.5 3.5 0 0 0 5.4 8c0 3.5 2.5 4.3 4.5 4.5-.6.6-.6 1.2-.5 2V19"/></svg>github.com/Coding-with-Gaurav</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div>
+      <div class="footer__brand">Gaurav Kumar</div>
+      <div class="footer__tagline">Junior Research Fellow · AI Centre for Research, SRHU</div>
+    </div>
+    <ul class="footer__links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <div class="wrap footer__bottom">
+    <span>© 2026 Gaurav Kumar. Built from a single source of truth — my résumé.</span>
+    <span>Dehradun, Uttarakhand, India</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // Mobile nav toggle
+  var toggle = document.getElementById('nav-toggle');
+  var links = document.getElementById('nav-links');
+  toggle.addEventListener('click', function(){
+    var open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+  links.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){
+      links.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // Active nav link on scroll
+  var sections = ['about','research','experience','projects','publications','teaching','contact']
+    .map(function(id){ return document.getElementById(id); }).filter(Boolean);
+  var navAnchors = Array.from(links.querySelectorAll('a'));
+  function onScroll(){
+    var y = window.scrollY + 100;
+    var current = null;
+    sections.forEach(function(sec){
+      if (sec.offsetTop <= y) current = sec.id;
+    });
+    navAnchors.forEach(function(a){
+      var match = a.getAttribute('href') === '#' + current;
+      if (match) a.setAttribute('aria-current','true');
+      else a.removeAttribute('aria-current');
+    });
+  }
+  document.addEventListener('scroll', onScroll, { passive:true });
+  onScroll();
+
+  // Reveal on scroll
+  var reveals = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting){
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: .12, rootMargin: '0px 0px -40px 0px' });
+    reveals.forEach(function(el){ io.observe(el); });
+  } else {
+    reveals.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  // Abstract toggles
+  document.querySelectorAll('.abstract-toggle').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var target = document.getElementById(btn.dataset.target);
+      if (!target) return;
+      var open = target.classList.toggle('open');
+      btn.textContent = open ? 'Abstract ↑' : 'Abstract ↓';
+    });
+  });
+})();
+</script>
+</body>
+</html>
